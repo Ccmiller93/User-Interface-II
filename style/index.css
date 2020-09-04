@@ -13,14 +13,14 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
 }
 *{
     box-sizing: border-box;
-    border:1px solid gray;
+    /* border:1px solid red; */
     max-width:100%;
 }
 html {
@@ -29,7 +29,7 @@ html {
 body {
     font-size:1.6rem;
     line-height: 1.5;
-    background:#7AAED5;
+    background:gray;
 }
 a {
     text-decoration:none;
@@ -45,8 +45,12 @@ nav a {
     width:15%;
     text-align: center;
     padding:2% 0;
-    background:lightpink;
+    background:black;
+    color:white;
     justify-content: right;
+}
+nav h1 {
+    font-size: 3rem;
 }
 .links {
     display: flex;
@@ -62,6 +66,7 @@ nav a {
 .second div {
     width:25%;
 }
+/*this is the second row of pictures*/
 .three {
     font-size:2rem;
     display: flex;
@@ -69,7 +74,6 @@ nav a {
 }
 .three div {
     width:25%;
-    padding:3%;
 }
 /*this is fo the middle section*/
 .mid {
@@ -78,17 +82,34 @@ nav a {
 }
 .container {
     position: absolute;
-    top: 50%;
-    bottom: 50%;
-    left: 50%;
+    bottom: 40%;
+    left: 30%;
+}
+.container a {
+    text-decoration:none;
+    font-size: 4rem;
+    color:#3B4483;
+}
+.name {
+    font-size: 10rem;
+    color:#3B4483;
 }
 .mid img {
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
 }
+/*this is for the footer*/
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#contact {
+    background-color: black;
+}
+#contact a {
+    text-decoration:none;
+    color:white;
+    background-color: black;
 }
