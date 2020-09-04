@@ -13,13 +13,15 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
 }
 *{
     box-sizing: border-box;
+    border:1px solid gray;
+    max-width:100%;
 }
 html {
     font-size: 62.5%;
@@ -27,4 +29,37 @@ html {
 body {
     font-size:1.6rem;
     line-height: 1.5;
+    background:#7AAED5;
+}
+a {
+    text-decoration:none;
+}
+nav {
+    justify-content: right;
+}
+nav a {
+    display:inline-block;
+    width:15%;
+    text-align: center;
+    padding:2% 0;
+    background:lightpink;
+    justify-content: right;
+}
+
+.second {
+    font-size:2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.second div {
+    width:25%;
+}
+.three {
+    font-size:2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.three div {
+    width:25%;
+    padding:3%;
 }
