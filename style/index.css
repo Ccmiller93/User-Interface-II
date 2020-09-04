@@ -34,8 +34,11 @@ body {
 a {
     text-decoration:none;
 }
+/*this is for the nav bar*/
 nav {
-    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 nav a {
     display:inline-block;
@@ -45,7 +48,12 @@ nav a {
     background:lightpink;
     justify-content: right;
 }
-
+.links {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+/*this is for the bottom pictures*/
 .second {
     font-size:2rem;
     display: flex;
@@ -62,4 +70,25 @@ nav a {
 .three div {
     width:25%;
     padding:3%;
+}
+/*this is fo the middle section*/
+.mid {
+    position: relative;
+    text-align: center;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+}
+.mid img {
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
