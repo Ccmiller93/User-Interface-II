@@ -1,1 +1,115 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+*{
+    box-sizing: border-box;
+    /* border:1px solid red; */
+    max-width:100%;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size:1.6rem;
+    line-height: 1.5;
+    background:gray;
+}
+a {
+    text-decoration:none;
+}
+/*this is for the nav bar*/
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav a {
+    display:inline-block;
+    width:15%;
+    text-align: center;
+    padding:2% 0;
+    background:black;
+    color:white;
+    justify-content: right;
+}
+nav h1 {
+    font-size: 3rem;
+}
+.links {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+/*this is for the bottom pictures*/
+.second {
+    font-size:2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.second div {
+    width:25%;
+}
+/*this is the second row of pictures*/
+.three {
+    font-size:2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.three div {
+    width:25%;
+}
+/*this is fo the middle section*/
+.mid {
+    position: relative;
+    text-align: center;
+}
+.container {
+    position: absolute;
+    bottom: 40%;
+    left: 30%;
+}
+.container a {
+    text-decoration:none;
+    font-size: 4rem;
+    color:#3B4483;
+}
+.name {
+    font-size: 10rem;
+    color:#3B4483;
+}
+.mid img {
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+/*this is for the footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact {
+    background-color: black;
+}
+#contact a {
+    text-decoration:none;
+    color:white;
+    background-color: black;
+}
